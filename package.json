@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./build && tsc",
-    "start:dev": "nodemon",
+    "develop": "nodemon",
     "start": "yarn build && node build/index.js"
   },
   "repository": "https://github.com/DevSamurai/typescript-node-starter.git",
